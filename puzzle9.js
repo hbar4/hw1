@@ -1,29 +1,32 @@
-var steps = 0
+var steps =0
 while (steps < 8) {
-  right
+  right();
   steps = steps + 1
-  if (GetColor!= “red” ) {
-  SetColor ("red")
+  if (getColor!= "red" ) {
+  setColor ("red")
 } 
 }
+var steps =0
 while (steps < 4) {
-  down
+  down();
   steps = steps + 1
-  if (GetColor!= “red” ) {
-  SetColor ("red")
+  if (getColor!= "red" ) {
+  setColor ("red")
 } 
 }
+var steps =0
 while (steps < 8) {
-  left
+  left();
   steps = steps + 1
-  if (GetColor!= “red” ) {
-  SetColor ("red")
+  if (getColor!= "red" ) {
+  setColor ("red")
 } 
 }
+var steps =0
 while (steps < 8) {
-  up
+  up();
   steps = steps + 1
-  if (GetColor!= “red” ) {
-  SetColor ("red")
+  if (getColor!= "red" ) {
+  setColor ("red")
 } 
 }
