@@ -1,16 +1,17 @@
-down
-down
-down
-down
-right
-var firstcolorseen = GetColor
-function move {
-Firstcolorseen
-down
-SetColor (firstcolorseen)
-right
-right
+down();
+down();
+down();
+down();
+right();
+var firstcolorseen = getColor();
+function move() {
+down();
+setColor(firstcolorseen);
+right();
+right();
+right();
 }
-move
-up
-move
+move();
+up();
+var firstcolorseen = getColor();
+move();
