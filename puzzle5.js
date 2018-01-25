@@ -1,15 +1,15 @@
-function moveloop {
-right
-right
-If(getColor==”red”) {
-Up
-} Else {
-Down
+function moveloop() {
+  right();
+  right();
+  if(getColor()=="red"){
+    up();
+  } else {
+    down();
+  }
 }
-}
-moveloop
-moveloop
-moveloop
-right
-right
-right
+moveloop();
+moveloop();
+moveloop();
+right();
+right();
+right();
